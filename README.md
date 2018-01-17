@@ -750,6 +750,7 @@ for each team broken up by divisions
 `GET https://statsapi.web.nhl.com/api/v1/standingsTypes` Returns all the standings types
 to be used in order do get a specific standings
 
+```{
 [ {
   "name" : "regularSeason",
   "description" : "Regular Season Standings"
@@ -778,7 +779,7 @@ to be used in order do get a specific standings
   "name" : "byLeague",
   "description" : "Standings by League"
 } ]
-
+```
 Ex: https://statsapi.web.nhl.com/api/v1/standings/wildCardWithLeaders?date=2018-01-16
 
 Returns the complete wildcard (with leaders) standings on 01/16/2018.
@@ -798,7 +799,7 @@ to be used in order do get a specific kind of player stats
 
 Ex: 
 
-{
+```{
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2018. All Rights Reserved.",
   "stats" : [ {
     "type" : {
@@ -884,7 +885,7 @@ Ex:
     } ]
   } ]
 }
-
+```
 
 ---
 ### Draft
