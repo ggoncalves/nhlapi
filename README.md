@@ -61,7 +61,7 @@ for a single team instead of the entire league.
 
 `GET https://statsapi.web.nhl.com/api/v1/teams/ID/roster` Returns entire roster for a team
 including id value, name, jersey number and position details.
-
+,
 ```{
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2018. All Rights Reserved.",
   "roster" : [ {
