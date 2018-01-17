@@ -744,6 +744,46 @@ multiple types of media relating to the game including videos of shots, goals an
 for each team broken up by divisions
 
 ---
+
+### Standings Types
+
+`GET https://statsapi.web.nhl.com/api/v1/standingsTypes` Returns all the standings types
+to be used in order do get a specific standings
+
+[ {
+  "name" : "regularSeason",
+  "description" : "Regular Season Standings"
+}, {
+  "name" : "wildCard",
+  "description" : "Wild card standings"
+}, {
+  "name" : "divisionLeaders",
+  "description" : "Division Leader standings"
+}, {
+  "name" : "wildCardWithLeaders",
+  "description" : "Wild card standings with Division Leaders"
+}, {
+  "name" : "preseason",
+  "description" : "Preseason Standings"
+}, {
+  "name" : "postseason",
+  "description" : "Postseason Standings"
+}, {
+  "name" : "byDivision",
+  "description" : "Standings by Division"
+}, {
+  "name" : "byConference",
+  "description" : "Standings by Conference"
+}, {
+  "name" : "byLeague",
+  "description" : "Standings by League"
+} ]
+
+Ex: https://statsapi.web.nhl.com/api/v1/standings/wildCardWithLeaders?date=2018-01-16
+
+Returns the complete wildcard (with leaders) standings on 01/16/2018.
+
+---
 ### Draft
 
 `GET https://statsapi.web.nhl.com/api/v1/draft/YEAR` Takes a YYYY format year and returns draft data
